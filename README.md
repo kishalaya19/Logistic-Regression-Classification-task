@@ -13,18 +13,18 @@ The Breast Cancer Dataset contains 569 rows and 33 variables.
 Visualization techniques like histograms, scatter plots, and box plots were employed to explore the data further.
 Insights into feature distributions and their relationship with the target variable (diagnosis) were drawn, showing clear separation between classes in some variables.
 2. Logistic Regression Model Development
-A logistic regression model was developed to predict the diagnosis (malignant or benign) based on the dataset features.
+- A logistic regression model was developed to predict the diagnosis (malignant or benign) based on the dataset features.
 Data preprocessing steps included handling of missing values (none were found), encoding of categorical variables, and feature scaling.
 The process of model development, including the rationale behind chosen preprocessing steps, is detailed.
 3. Model Evaluation
-The logistic regression model's performance was assessed using accuracy, R^2, and RMSE metrics on out-of-sample data.
+- The logistic regression model's performance was assessed using accuracy, R^2, and RMSE metrics on out-of-sample data.
 A split of the dataset into training and testing sets facilitated the evaluation, ensuring an unbiased assessment of model effectiveness.
 4. Testing Interactions Between Features
-Interaction between features was explored, particularly focusing on the effects of combining categorical/dummy variables with continuous variables.
+- Interaction between features was explored, particularly focusing on the effects of combining categorical/dummy variables with continuous variables.
 A linear regression model was experimented with to understand the implications of feature interactions, noting the challenges of using linear regression for binary outcomes.
 Significant interactions were identified and discussed, providing insights into the dataset's complexities.
 5. Feature Selection and Cross-Validation: Full vs. Reduced Model
-A reduced model was created using significant predictors identified through feature selection techniques.
+- A reduced model was created using significant predictors identified through feature selection techniques.
 Both full and reduced models were evaluated using 10-fold cross-validation, comparing their out-of-sample performance.
 The analysis concluded with the reduced model being favored for its simplicity and competitive performance, adhering to the principle of parsimony.
 
