@@ -9,7 +9,7 @@ The Breast Cancer Dataset contains 569 rows and 33 variables.
 
 ## Project Structure
 1. Data Exploration and Visualization
-Initial analysis of the dataset to understand the distribution and characteristics of features.
+- Initial analysis of the dataset to understand the distribution and characteristics of features.
 Visualization techniques like histograms, scatter plots, and box plots were employed to explore the data further.
 Insights into feature distributions and their relationship with the target variable (diagnosis) were drawn, showing clear separation between classes in some variables.
 2. Logistic Regression Model Development
