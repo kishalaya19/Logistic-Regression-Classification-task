@@ -36,9 +36,15 @@ The analysis concluded with the reduced model being favored for its simplicity a
 
 - Model Performance: The logistic regression model achieved high precision (0.95) and recall (0.88) for the positive (malignant) class, with an ROC of 0.97, indicating excellent model performance.
 
+  <img src="roc.png" width="1140" height="280">
+
 - Feature Selection: The implementation of the False Discovery Rate (FDR) control helped in selecting the most significant features, reducing the model from 15 to 5 predictors without substantially decreasing accuracy.
 
+<img src="fdr.png" width="1140" height="280">
+
 - Cross-Validation Results: The full model showed a mean accuracy of 0.91, compared to 0.89 for the reduced model. Despite the reduction in variables, the minimal loss in accuracy suggests the reduced model's efficiency and generalizability.
+
+<img src="cv.png" width="1140" height="280">
 
 - Final Model Selection: Given its simplicity and robust performance, the reduced model was selected as the final model, demonstrating that a parsimonious approach can achieve high accuracy in predicting breast cancer diagnoses.
 
