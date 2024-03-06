@@ -8,6 +8,8 @@ This project is focused on developing a predictive model to classify breast canc
 The Breast Cancer Dataset contains 569 rows and 33 variables.
 
 ## Project Structure
+<img src="structure.png" width="1140" height="250">
+
 1. Data Exploration and Visualization
 - Initial analysis of the dataset to understand the distribution and characteristics of features.
 Visualization techniques like histograms, scatter plots, and box plots were employed to explore the data further.
